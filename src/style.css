@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.image__story {
+  height: 80vh;
+  margin-top: 10vh; 
+  margin-left: 10vh;
+  display: inline-block;
+}
+
+.text__story {
+  font-size: 18px;
+  align-self: center
+}
+
+.text {
+  height: 80vh;
+  margin-top: 5%;
+  padding: 20px;
+  display: flex;
+}
