@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+
+.image {
+  margin-left: 3%;
+}
+
+.image__story {
+  display: none;
+}
