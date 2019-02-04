@@ -7,22 +7,22 @@ body {
   display: flex;
 }
 
-.image__story {
-  height: 80vh;
-  margin-top: 10vh; 
-  margin-left: 10vh;
-  display: inline-block;
+img {
+  margin-top: 12%;
+  margin-left: 7%;
+  width: 40vw;
 }
 
 .text__story {
   font-size: 25px;
   align-self: center;
+  margin-left: 30px;
 }
 
 .text {
   height: 80vh;
   margin-top: 5%;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   font-family: VT323;
 }
@@ -34,4 +34,8 @@ body {
   bottom: 30%;
   right: 10%;
   font-size: 22px;
+}
+
+.image__story {
+  display: none;
 }

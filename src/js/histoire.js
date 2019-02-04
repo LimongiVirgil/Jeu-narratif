@@ -4,12 +4,16 @@ var story3 = document.querySelector('.image .image__story--chateau3');
 var story4 = document.querySelector('.image .image__story--chateau4');
 var story5 = document.querySelector('.image .image__story--chateau5');
 var story6 = document.querySelector('.image .image__story--chateau6');
+var story7 = document.querySelector('.image .image__story--chateau7');
+var story8 = document.querySelector('.image .image__story--chateau8');
 var reset = true;
 
 story3.classList.add('display');
 story4.classList.add('display');
 story5.classList.add('display');
 story6.classList.add('display');
+story7.classList.add('display');
+story8.classList.add('display');
 
 setInterval(function() {
   if (story1.className === 'image__story--chateau1 image__story') {
@@ -56,3 +60,21 @@ setTimeout(function () {
     }
   },500);
 }, 16000);
+
+setTimeout(function () {
+  story5.classList.add('display');
+  story6.classList.add('display');
+  story5.classList.add('image__story');
+  story7.classList.add('image__story');
+  story7.classList.remove('display');
+  story8.classList.remove('display');
+  setInterval(function () {
+    if (story7.className === 'image__story--chateau7 image__story') {
+      story7.classList.remove('image__story');
+      story8.classList.add('image__story');
+    } else {
+       story8.classList.remove('image__story');
+       story7.classList.add('image__story');
+    }
+  },500);
+}, 24000);
