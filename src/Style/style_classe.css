@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  
+}
+
+.text {
+  display: inline-block;
+  font-family: VT323;
+  font-size: 25px;
+  margin-left: 55%;
+  margin-right: 3.5%;
+  margin-top: 50vh;
+  width: 40vw;
+  color: white;
+}
+
+.image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+  margin-top: 1.5%;
+}
+
+a {
+  position: relative;
+  color: white;
+  font-size: 25px;
+  font-family: VT323;
+  margin-left: 72%;
+  bottom: -40px;
+}
+
+.display {
+  display: none;
+}
+
+.image__story {
+  display: none;
+}
+
+.slider__arrow {
+  background: white;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 12.5%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.slider__arrow--right {
+  right: 0;
+}
