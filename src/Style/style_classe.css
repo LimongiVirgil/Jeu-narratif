@@ -9,7 +9,7 @@ body {
   font-size: 25px;
   margin-left: 55%;
   margin-right: 3.5%;
-  margin-top: 50vh;
+  margin-top: 27%;
   width: 40vw;
   color: white;
 }
@@ -22,13 +22,22 @@ body {
   margin-top: 1.5%;
 }
 
-a {
-  position: relative;
-  color: white;
+.image__button {
+  position: absolute;
+  color: black;
+  background-color: white;
   font-size: 25px;
   font-family: VT323;
-  margin-left: 72%;
-  bottom: -40px;
+  left: 43.5%;
+  bottom: 5%;
+  border: solid 2px black;
+  text-decoration: none;
+  padding: 7px;
+}
+
+.image__button:hover {
+  background-color: rgb(226, 226, 226);
+  border: solid 1px black;
 }
 
 .display {
@@ -51,6 +60,10 @@ a {
   text-align: center;
   user-select: none;
   cursor: pointer;
+}
+
+.slider__arrow:hover {
+  background-color: rgb(226, 226, 226);
 }
 
 .slider__arrow--right {
