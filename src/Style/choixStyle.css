@@ -28,7 +28,7 @@ body {
   background-color: white;
   font-size: 25px;
   font-family: VT323;
-  left: 43.5%;
+  left: 38%;
   bottom: 5%;
   border: solid 2px black;
   text-decoration: none;
@@ -70,4 +70,14 @@ body {
 
 .slider__arrow--right {
   right: 0;
+}
+
+.button__next {
+  
+  font-family: VT323;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
 }
