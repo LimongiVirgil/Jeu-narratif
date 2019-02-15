@@ -25,7 +25,7 @@ right.addEventListener('click', function() {
 left.addEventListener('click', function() {
   if (index <= 0) {
     index = 1;
-  }
+  };
   images[index].classList.add('image__story');
   buttons[index].classList.add('display');
   index--;
