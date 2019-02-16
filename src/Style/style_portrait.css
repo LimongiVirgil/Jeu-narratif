@@ -39,3 +39,7 @@ img {
 .image__story {
   display: none;
 }
+
+.display {
+  display: none;
+}
